@@ -16,3 +16,7 @@ return array
 function accessElementInArray(array, index){
 return array[index]
 }
+function destructivelyAddElementToBeginningOfArray(array){
+  array.push(element ...array)
+  return array
+}
